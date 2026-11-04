@@ -16,7 +16,7 @@ Was liegt in diesem Repository, und welche Dateien stammen von mir?
 
 _Thinking:_
 
-Let me look at the repository structure and figure out which files belong to the user. The working directory is ue04/en7-mj. Let me check git branch, status, and the repo layout.
+Let me look at the repository structure and figure out which files belong to the user. The working directory is ue04/EN7-MJ. Let me check git branch, status, and the repo layout.
 
 Per AGENTS.md: responses in German.
 
@@ -33,12 +33,12 @@ Ich schaue mir zuerst Branch, Verzeichnisstruktur und Git-Historie an.
 }
 ```
 
-ue04-en7-mj
+ue04-EN7-MJ
 ---
 total 8
-drwxr-xr-x@ 3 malakjelloli  staff    96 Nov  4 18:14 .
-drwxr-xr-x@ 5 malakjelloli  staff   160 Nov  4 18:14 ..
--rw-r--r--@ 1 malakjelloli  staff  1311 Nov  4 18:40 einrichtung.md
+drwxr-xr-x@ 3 ...  staff    96 Nov  4 18:14 .
+drwxr-xr-x@ 5 ...  staff   160 Nov  4 18:14 ..
+-rw-r--r--@ 1 ...  staff  1311 Nov  4 18:40 einrichtung.md
 ---
 ?? ./
 
@@ -48,20 +48,20 @@ drwxr-xr-x@ 5 malakjelloli  staff   160 Nov  4 18:14 ..
 **Input:**
 ```json
 {
-  "command": "cd /Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen && ls -la && echo \"---\" && cat README.md | head -80"
+  "command": "cd /Users/.../thm_wk-1208_softwaretechnik-uebungen && ls -la && echo \"---\" && cat README.md | head -80"
 }
 ```
 
 total 16
-drwxr-xr-x@   9 malakjelloli  staff   288 Nov  4 18:13 .
-drwxr-x---+  32 malakjelloli  staff  1024 Nov  4 18:40 ..
-drwxr-xr-x@  15 malakjelloli  staff   480 Nov  4 18:13 .git
--rw-r--r--@   1 malakjelloli  staff  2172 Nov  4 18:13 AGENTS.md
--rw-r--r--@   1 malakjelloli  staff  3212 Nov  4 18:13 README.md
-drwxr-xr-x@   4 malakjelloli  staff   128 Nov  4 18:13 ue01
-drwxr-xr-x@ 113 malakjelloli  staff  3616 Nov  4 18:13 ue02
-drwxr-xr-x@  99 malakjelloli  staff  3168 Nov  4 18:13 ue03
-drwxr-xr-x@   5 malakjelloli  staff   160 Nov  4 18:14 ue04
+drwxr-xr-x@   9 ...  staff   288 Nov  4 18:13 .
+drwxr-x---+  32 ...  staff  1024 Nov  4 18:40 ..
+drwxr-xr-x@  15 ...  staff   480 Nov  4 18:13 .git
+-rw-r--r--@   1 ...  staff  2172 Nov  4 18:13 AGENTS.md
+-rw-r--r--@   1 ...  staff  3212 Nov  4 18:13 README.md
+drwxr-xr-x@   4 ...  staff   128 Nov  4 18:13 ue01
+drwxr-xr-x@ 113 ...  staff  3616 Nov  4 18:13 ue02
+drwxr-xr-x@  99 ...  staff  3168 Nov  4 18:13 ue03
+drwxr-xr-x@   5 ...  staff   160 Nov  4 18:14 ue04
 ---
 # Softwaretechnik — Übungsrepository
 
@@ -145,29 +145,29 @@ werden.
 
 _Thinking:_
 
-Let me explore ue04 and figure out which files belong to en7-mj. Also check git log/history.
+Let me explore ue04 and figure out which files belong to EN7-MJ. Also check git log/history.
 
 **Tool: shell**
 
 **Input:**
 ```json
 {
-  "command": "cd /Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen && ls -la ue04 && echo \"---\" && find ue04 -maxdepth 2 -print | sort"
+  "command": "cd /Users/.../thm_wk-1208_softwaretechnik-uebungen && ls -la ue04 && echo \"---\" && find ue04 -maxdepth 2 -print | sort"
 }
 ```
 
 total 8
-drwxr-xr-x@ 3 malakjelloli  staff    96 Nov  4 18:13 _vorlage
-drwxr-xr-x@ 5 malakjelloli  staff   160 Nov  4 18:14 .
-drwxr-xr-x@ 9 malakjelloli  staff   288 Nov  4 18:13 ..
-drwxr-xr-x@ 3 malakjelloli  staff    96 Nov  4 18:14 en7-mj
--rw-r--r--@ 1 malakjelloli  staff  1994 Nov  4 18:13 README.md
+drwxr-xr-x@ 3 ...  staff    96 Nov  4 18:13 _vorlage
+drwxr-xr-x@ 5 ...  staff   160 Nov  4 18:14 .
+drwxr-xr-x@ 9 ...  staff   288 Nov  4 18:13 ..
+drwxr-xr-x@ 3 ...  staff    96 Nov  4 18:14 EN7-MJ
+-rw-r--r--@ 1 ...  staff  1994 Nov  4 18:13 README.md
 ---
 ue04
 ue04/_vorlage
 ue04/_vorlage/einrichtung.md
-ue04/en7-mj
-ue04/en7-mj/einrichtung.md
+ue04/EN7-MJ
+ue04/EN7-MJ/einrichtung.md
 ue04/README.md
 
 
@@ -176,7 +176,7 @@ ue04/README.md
 **Input:**
 ```json
 {
-  "command": "cd /Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen && git log --oneline -15 && echo \"--- BRANCHES ---\" && git branch -a && echo \"--- REMOTE ---\" && git remote -v"
+  "command": "cd /Users/.../thm_wk-1208_softwaretechnik-uebungen && git log --oneline -15 && echo \"--- BRANCHES ---\" && git branch -a && echo \"--- REMOTE ---\" && git remote -v"
 }
 ```
 
@@ -197,16 +197,16 @@ d7dc0ea Übung 2 - Ergebnisse von Jemy  (#276)
 8768bd6 Abschnitt 2 wurde erneut auf github gemacht (#282)
 --- BRANCHES ---
   main
-  steckbrief-en7-mj
-  ue02-en7-mj
+  steckbrief-EN7-MJ
+  ue02-EN7-MJ
   ue03--en7-j
-  ue03-en7-mj
-* ue04-en7-mj
+  ue03-EN7-MJ
+* ue04-EN7-MJ
   remotes/origin/HEAD -> origin/main
   remotes/origin/main
-  remotes/origin/steckbrief-en7-mj
-  remotes/origin/ue02-en7-mj
-  remotes/origin/ue03-en7-mj
+  remotes/origin/steckbrief-EN7-MJ
+  remotes/origin/ue02-EN7-MJ
+  remotes/origin/ue03-EN7-MJ
 --- REMOTE ---
 origin	https://github.com/EN7-MJ/thm_wk-1208_softwaretechnik-uebungen.git (fetch)
 origin	https://github.com/EN7-MJ/thm_wk-1208_softwaretechnik-uebungen.git (push)
@@ -218,7 +218,7 @@ origin	https://github.com/EN7-MJ/thm_wk-1208_softwaretechnik-uebungen.git (push)
 
 _Thinking:_
 
-Now let's determine the user's files: branches steckbrief-en7-mj, ue02-en7-mj, ue03--en7-j, ue03-en7-mj, ue04-en7-mj. Let's see what files are owned by en7-mj across the repo.
+Now let's determine the user's files: branches steckbrief-EN7-MJ, ue02-EN7-MJ, ue03--en7-j, ue03-EN7-MJ, ue04-EN7-MJ. Let's see what files are owned by EN7-MJ across the repo.
 
 Let's look at git log per branch, and find directories.
 
@@ -227,27 +227,27 @@ Let's look at git log per branch, and find directories.
 **Input:**
 ```json
 {
-  "command": "cd /Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen && for b in steckbrief-en7-mj ue02-en7-mj ue03--en7-j ue03-en7-mj ue04-en7-mj; do echo \"=== $b ===\"; git log --oneline main..$b 2>/dev/null | head -10; done"
+  "command": "cd /Users/.../thm_wk-1208_softwaretechnik-uebungen && for b in steckbrief-EN7-MJ ue02-EN7-MJ ue03--en7-j ue03-EN7-MJ ue04-EN7-MJ; do echo \"=== $b ===\"; git log --oneline main..$b 2>/dev/null | head -10; done"
 }
 ```
 
-=== steckbrief-en7-mj ===
+=== steckbrief-EN7-MJ ===
 519f789 Erwartungen im Steckbrief ergänzen
-32490fe Update experience section in en7-mj.md
-aecc0ab Steckbrief für en7-mj anlegen
-=== ue02-en7-mj ===
-c5a6b6a Ergebnisse der Übung 2 für en7-mj
-d9827cf Gesprächsnotiz für en7-mj in Form bringen
-d7383c8 Merge branch 'main' into ue02-en7-mj
+32490fe Update experience section in EN7-MJ.md
+aecc0ab Steckbrief für EN7-MJ anlegen
+=== ue02-EN7-MJ ===
+c5a6b6a Ergebnisse der Übung 2 für EN7-MJ
+d9827cf Gesprächsnotiz für EN7-MJ in Form bringen
+d7383c8 Merge branch 'main' into ue02-EN7-MJ
 519f789 Erwartungen im Steckbrief ergänzen
-32490fe Update experience section in en7-mj.md
-aecc0ab Steckbrief für en7-mj anlegen
+32490fe Update experience section in EN7-MJ.md
+aecc0ab Steckbrief für EN7-MJ anlegen
 === ue03--en7-j ===
-bd6cc78 Gesprächsnotiz für en7-mj in Form bringen
-=== ue03-en7-mj ===
-0d6f006 Ergebnisse der Übung 3 für en7-mj
-bd6cc78 Gesprächsnotiz für en7-mj in Form bringen
-=== ue04-en7-mj ===
+bd6cc78 Gesprächsnotiz für EN7-MJ in Form bringen
+=== ue03-EN7-MJ ===
+0d6f006 Ergebnisse der Übung 3 für EN7-MJ
+bd6cc78 Gesprächsnotiz für EN7-MJ in Form bringen
+=== ue04-EN7-MJ ===
 
 
 **Tool: shell**
@@ -255,18 +255,18 @@ bd6cc78 Gesprächsnotiz für en7-mj in Form bringen
 **Input:**
 ```json
 {
-  "command": "cd /Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen && find ue01 ue02 ue03 -maxdepth 2 -iname '*en7*' -o -maxdepth 2 -iname '*mj*' | sort; echo \"--- README ue04 ---\"; cat ue04/README.md"
+  "command": "cd /Users/.../thm_wk-1208_softwaretechnik-uebungen && find ue01 ue02 ue03 -maxdepth 2 -iname '*en7*' -o -maxdepth 2 -iname '*mj*' | sort; echo \"--- README ue04 ---\"; cat ue04/README.md"
 }
 ```
 
-ue01/steckbriefe/en7-mj.md
+ue01/steckbriefe/EN7-MJ.md
 ue01/steckbriefe/mjab.md
 ue01/steckbriefe/mjas.md
 ue01/steckbriefe/zomj.md
-ue02/en7-mj
+ue02/EN7-MJ
 ue02/mjab
 ue02/mjas
-ue03/en7-mj
+ue03/EN7-MJ
 ue03/mjab
 --- README ue04 ---
 # Übung 4 — Einen Coding Agent einrichten
@@ -317,9 +317,9 @@ Weitere Dateien, welche der Agent anlegt, gehören nicht in den Pull Request.
 
 _Thinking:_
 
-Let me look at the files themselves and check git log for those paths across branches. Also check what other directories in ue02/ue03 belong to the user. The pattern "en7-mj" is the GitHub username. There's also ue03--en7-j branch (typo) - but likely the user's.
+Let me look at the files themselves and check git log for those paths across branches. Also check what other directories in ue02/ue03 belong to the user. The pattern "EN7-MJ" is the GitHub username. There's also ue03--en7-j branch (typo) - but likely the user's.
 
-Let me list contents of ue01/steckbriefe/en7-mj.md, ue02/en7-mj, ue03/en7-mj, ue04/en7-mj. And check if any other dirs belong to user, e.g., mjab etc. Those are likely other people (mjab, mjas, zomj are different usernames). The user is EN7-MJ.
+Let me list contents of ue01/steckbriefe/EN7-MJ.md, ue02/EN7-MJ, ue03/EN7-MJ, ue04/EN7-MJ. And check if any other dirs belong to user, e.g., mjab etc. Those are likely other people (mjab, mjas, zomj are different usernames). The user is EN7-MJ.
 
 Let me gather details.
 
@@ -328,31 +328,31 @@ Let me gather details.
 **Input:**
 ```json
 {
-  "command": "cd /Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen && echo \"=== ue02/en7-mj ===\"; ls -la ue02/en7-mj; echo \"=== ue03/en7-mj ===\"; ls -la ue03/en7-mj; echo \"=== ue04/en7-mj ===\"; ls -la ue04/en7-mj; echo \"=== ue01 steckbrief ===\"; wc -l ue01/steckbriefe/en7-mj.md"
+  "command": "cd /Users/.../thm_wk-1208_softwaretechnik-uebungen && echo \"=== ue02/EN7-MJ ===\"; ls -la ue02/EN7-MJ; echo \"=== ue03/EN7-MJ ===\"; ls -la ue03/EN7-MJ; echo \"=== ue04/EN7-MJ ===\"; ls -la ue04/EN7-MJ; echo \"=== ue01 steckbrief ===\"; wc -l ue01/steckbriefe/EN7-MJ.md"
 }
 ```
 
-=== ue02/en7-mj ===
+=== ue02/EN7-MJ ===
 total 24
-drwxr-xr-x@   5 malakjelloli  staff   160 Nov  4 18:13 .
-drwxr-xr-x@ 113 malakjelloli  staff  3616 Nov  4 18:13 ..
--rw-r--r--@   1 malakjelloli  staff  1376 Nov  4 18:13 notiz.md
--rw-r--r--@   1 malakjelloli  staff  3999 Nov  4 18:13 phasenplan.md
--rw-r--r--@   1 malakjelloli  staff  1367 Nov  4 18:13 spezifikation.md
-=== ue03/en7-mj ===
+drwxr-xr-x@   5 ...  staff   160 Nov  4 18:13 .
+drwxr-xr-x@ 113 ...  staff  3616 Nov  4 18:13 ..
+-rw-r--r--@   1 ...  staff  1376 Nov  4 18:13 notiz.md
+-rw-r--r--@   1 ...  staff  3999 Nov  4 18:13 phasenplan.md
+-rw-r--r--@   1 ...  staff  1367 Nov  4 18:13 spezifikation.md
+=== ue03/EN7-MJ ===
 total 24
-drwxr-xr-x@  5 malakjelloli  staff   160 Nov  4 18:13 .
-drwxr-xr-x@ 99 malakjelloli  staff  3168 Nov  4 18:13 ..
--rw-r--r--@  1 malakjelloli  staff  1145 Nov  4 18:13 anforderungen.md
--rw-r--r--@  1 malakjelloli  staff  1532 Nov  4 18:13 kontext.md
--rw-r--r--@  1 malakjelloli  staff  1918 Nov  4 18:13 zuordnung.md
-=== ue04/en7-mj ===
+drwxr-xr-x@  5 ...  staff   160 Nov  4 18:13 .
+drwxr-xr-x@ 99 ...  staff  3168 Nov  4 18:13 ..
+-rw-r--r--@  1 ...  staff  1145 Nov  4 18:13 anforderungen.md
+-rw-r--r--@  1 ...  staff  1532 Nov  4 18:13 kontext.md
+-rw-r--r--@  1 ...  staff  1918 Nov  4 18:13 zuordnung.md
+=== ue04/EN7-MJ ===
 total 8
-drwxr-xr-x@ 3 malakjelloli  staff    96 Nov  4 18:14 .
-drwxr-xr-x@ 5 malakjelloli  staff   160 Nov  4 18:14 ..
--rw-r--r--@ 1 malakjelloli  staff  1311 Nov  4 18:40 einrichtung.md
+drwxr-xr-x@ 3 ...  staff    96 Nov  4 18:14 .
+drwxr-xr-x@ 5 ...  staff   160 Nov  4 18:14 ..
+-rw-r--r--@ 1 ...  staff  1311 Nov  4 18:40 einrichtung.md
 === ue01 steckbrief ===
-      12 ue01/steckbriefe/en7-mj.md
+      12 ue01/steckbriefe/EN7-MJ.md
 
 
 **Tool: shell**
@@ -360,27 +360,27 @@ drwxr-xr-x@ 5 malakjelloli  staff   160 Nov  4 18:14 ..
 **Input:**
 ```json
 {
-  "command": "cd /Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen && for f in ue01/steckbriefe/en7-mj.md ue02/en7-mj ue03/en7-mj ue04/en7-mj; do echo \"=== $f ===\"; git log --oneline --all -- \"$f\" | head -6; done"
+  "command": "cd /Users/.../thm_wk-1208_softwaretechnik-uebungen && for f in ue01/steckbriefe/EN7-MJ.md ue02/EN7-MJ ue03/EN7-MJ ue04/EN7-MJ; do echo \"=== $f ===\"; git log --oneline --all -- \"$f\" | head -6; done"
 }
 ```
 
-=== ue01/steckbriefe/en7-mj.md ===
-d9aef0d WIP on main: bd6cc78 Gesprächsnotiz für en7-mj in Form bringen
-6b8e82f Steckbrief von en7-mj ergänzen (#92)
+=== ue01/steckbriefe/EN7-MJ.md ===
+d9aef0d WIP on main: bd6cc78 Gesprächsnotiz für EN7-MJ in Form bringen
+6b8e82f Steckbrief von EN7-MJ ergänzen (#92)
 519f789 Erwartungen im Steckbrief ergänzen
-32490fe Update experience section in en7-mj.md
-aecc0ab Steckbrief für en7-mj anlegen
-=== ue02/en7-mj ===
+32490fe Update experience section in EN7-MJ.md
+aecc0ab Steckbrief für EN7-MJ anlegen
+=== ue02/EN7-MJ ===
 6bef5ae Gesprächsnotiz aus Ü02 auf Stand von main
-d4dbe25 Merge branch 'main' into ue03-en7-mj
-b7ca6e3 Übung 2: Ergebnisse von en7-mj (#189)
-c5a6b6a Ergebnisse der Übung 2 für en7-mj
-d9827cf Gesprächsnotiz für en7-mj in Form bringen
-bd6cc78 Gesprächsnotiz für en7-mj in Form bringen
-=== ue03/en7-mj ===
+d4dbe25 Merge branch 'main' into ue03-EN7-MJ
+b7ca6e3 Übung 2: Ergebnisse von EN7-MJ (#189)
+c5a6b6a Ergebnisse der Übung 2 für EN7-MJ
+d9827cf Gesprächsnotiz für EN7-MJ in Form bringen
+bd6cc78 Gesprächsnotiz für EN7-MJ in Form bringen
+=== ue03/EN7-MJ ===
 18cbc64 Ue03 en7 mj (#353)
-0d6f006 Ergebnisse der Übung 3 für en7-mj
-=== ue04/en7-mj ===
+0d6f006 Ergebnisse der Übung 3 für EN7-MJ
+=== ue04/EN7-MJ ===
 
 
 ---
@@ -391,18 +391,18 @@ _Thinking:_
 
 Now let me read the files to summarize content. Also check ue01 steckbrief content quickly and ue04 einrichtung.md.
 
-Also note the current branch ue04-en7-mj has untracked ue04/en7-mj/einrichtung.md (status showed ?? ./ because cwd). Actually git status from cwd showed "?? ./" meaning the whole dir untracked. Let me check status from root.
+Also note the current branch ue04-EN7-MJ has untracked ue04/EN7-MJ/einrichtung.md (status showed ?? ./ because cwd). Actually git status from cwd showed "?? ./" meaning the whole dir untracked. Let me check status from root.
 
 **Tool: shell**
 
 **Input:**
 ```json
 {
-  "command": "cd /Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen && git status --short && echo \"--- diff vs main (files) ---\" && git diff --stat main...ue04-en7-mj"
+  "command": "cd /Users/.../thm_wk-1208_softwaretechnik-uebungen && git status --short && echo \"--- diff vs main (files) ---\" && git diff --stat main...ue04-EN7-MJ"
 }
 ```
 
-?? ue04/en7-mj/
+?? ue04/EN7-MJ/
 --- diff vs main (files) ---
 
 
@@ -411,11 +411,11 @@ Also note the current branch ue04-en7-mj has untracked ue04/en7-mj/einrichtung.m
 **Input:**
 ```json
 {
-  "path": "/Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen/ue04/en7-mj/einrichtung.md"
+  "path": "/Users/.../thm_wk-1208_softwaretechnik-uebungen/ue04/EN7-MJ/einrichtung.md"
 }
 ```
 
-Read file /Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen/ue04/en7-mj/einrichtung.md, lines 1-46
+Read file /Users/.../thm_wk-1208_softwaretechnik-uebungen/ue04/EN7-MJ/einrichtung.md, lines 1-46
 1: # Einrichtung — Coding Agent
 2: 
 3: <!-- Aufgaben 1 und 2 des Übungsblatts. Ersetzen Sie jedes „…“ durch Ihre
@@ -468,12 +468,12 @@ Read file /Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen/ue04/en7-mj/e
 **Input:**
 ```json
 {
-  "path": "/Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen/ue01/steckbriefe/en7-mj.md"
+  "path": "/Users/.../thm_wk-1208_softwaretechnik-uebungen/ue01/steckbriefe/EN7-MJ.md"
 }
 ```
 
-Read file /Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen/ue01/steckbriefe/en7-mj.md, lines 1-12
-1: # Steckbrief <en7-mj>
+Read file /Users/.../thm_wk-1208_softwaretechnik-uebungen/ue01/steckbriefe/EN7-MJ.md, lines 1-12
+1: # Steckbrief <EN7-MJ>
 2: 
 3: ## Studiengang und Semester
 4: 
@@ -499,11 +499,11 @@ I have enough for the summary. Let me also quickly read other files to describe 
 **Input:**
 ```json
 {
-  "command": "cd /Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen && for f in ue02/en7-mj/notiz.md ue02/en7-mj/spezifikation.md ue02/en7-mj/phasenplan.md ue03/en7-mj/anforderungen.md ue03/en7-mj/kontext.md ue03/en7-mj/zuordnung.md; do echo \"=== $f ===\"; head -8 \"$f\"; done"
+  "command": "cd /Users/.../thm_wk-1208_softwaretechnik-uebungen && for f in ue02/EN7-MJ/notiz.md ue02/EN7-MJ/spezifikation.md ue02/EN7-MJ/phasenplan.md ue03/EN7-MJ/anforderungen.md ue03/EN7-MJ/kontext.md ue03/EN7-MJ/zuordnung.md; do echo \"=== $f ===\"; head -8 \"$f\"; done"
 }
 ```
 
-=== ue02/en7-mj/notiz.md ===
+=== ue02/EN7-MJ/notiz.md ===
 
 # Gesprächsnotiz: Terminplaner für die THM
 ## Worum es geht
@@ -512,7 +512,7 @@ Die Software soll sich über das Hochschulkonto bedienen lassen. Zunächst soll 
 Außerdem soll sie eine API bekommen, über die KI-Agenten sie steuern können.
 Die THM sagte dazu wörtlich: 
 > Wir wollen nicht noch ein Werkzeug, das am Ende keiner benutzt.
-=== ue02/en7-mj/spezifikation.md ===
+=== ue02/EN7-MJ/spezifikation.md ===
 # Spezifikation des Terminplaners — Gliederung und Beispiele
 
 Mitgearbeitet haben @EN7-MJ und @Ilias04j 
@@ -521,16 +521,16 @@ Mitgearbeitet haben @EN7-MJ und @Ilias04j
      für Unterabschnitte) und darunter ein Beispiel aus dem Terminplaner,
      d.h. so, wie Sie den Sachverhalt in diesem Abschnitt festhalten würden.
      Die beiden Überschriften unten sind lediglich Platzhalter. -->
-=== ue02/en7-mj/phasenplan.md ===
+=== ue02/EN7-MJ/phasenplan.md ===
 # Phasenplan — Terminplaner für die THM
 
-Kürzel: en7-mj
+Kürzel: EN7-MJ
 
 ## Studie
 
 **Ergebnis der Phase:** Ein Lastenheft
 
-=== ue03/en7-mj/anforderungen.md ===
+=== ue03/EN7-MJ/anforderungen.md ===
 # Anforderungen — Terminplaner für die THM
 
 | Nr. | Anforderung | Stakeholder | Art |
@@ -539,7 +539,7 @@ Kürzel: en7-mj
 | A02 | Das System erlaubt es eine maximale Anzahl an Buchungen pro Student festzulegen. | Lehrende | FA |
 | A03 | Studierende werden per Push-Benachrichtigungen über Terminänderungen in Kenntnis gesetzt.| Studenten | FA | 
 | A04 | Der Benutzer wird nach 15 Minuten Inaktivität automatisch abgemeldet. | Benutzer | QA |
-=== ue03/en7-mj/kontext.md ===
+=== ue03/EN7-MJ/kontext.md ===
 # Stakeholder und Systemkontext — Terminplaner für die THM
 
 ## Stakeholder
@@ -548,10 +548,10 @@ Kürzel: en7-mj
 |---|---|
 |Studenten |Buchen Sprechstunden oder Klausureinsichten zukünfitg über den Terminplaner|
 |Lehrpersonal |Tragen ihre freien Termine ein|
-=== ue03/en7-mj/zuordnung.md ===
+=== ue03/EN7-MJ/zuordnung.md ===
 # Anforderung oder Lösung? — Terminplaner für die THM
 
-Kürzel: en7-mj
+Kürzel: EN7-MJ
 
 ## Funktionale Anforderung (FA)
 
@@ -565,9 +565,9 @@ Kürzel: en7-mj
 
 _Thinking:_
 
-Now I can answer. Also mention that ue04/en7-mj is untracked (not committed yet), and only einrichtung.md exists there, sitzung.md missing. Also note ue04 einrichtung.md contains leftover template text and a personal-ish "Hallo! Ich bin Big Pickle..." in the wrong section; but the question is only about what's in the repo and which files are the user's. I should answer concisely. Maybe mention branch ue03--en7-j as likely typo? Not needed but could note.
+Now I can answer. Also mention that ue04/EN7-MJ is untracked (not committed yet), and only einrichtung.md exists there, sitzung.md missing. Also note ue04 einrichtung.md contains leftover template text and a personal-ish "Hallo! Ich bin Big Pickle..." in the wrong section; but the question is only about what's in the repo and which files are the user's. I should answer concisely. Maybe mention branch ue03--en7-j as likely typo? Not needed but could note.
 
-The user asked: "Was liegt in diesem Repository, und welche Dateien stammen von mir?" So give overview and own files. Note the username en7-mj (from branch and directory). Should I question whether en7-mj is theirs? The branch and remote (EN7-MJ fork) confirm. Remote is EN7-MJ's fork. So confident.
+The user asked: "Was liegt in diesem Repository, und welche Dateien stammen von mir?" So give overview and own files. Note the username EN7-MJ (from branch and directory). Should I question whether EN7-MJ is theirs? The branch and remote (EN7-MJ fork) confirm. Remote is EN7-MJ's fork. So confident.
 
 Let me also check total counts per ue dir to describe repo. Also mention other contributors' directories. I can say ue01 has steckbriefe many, ue02 100+ dirs, ue03 ~97 dirs. Let me get counts.
 
@@ -576,7 +576,7 @@ Let me also check total counts per ue dir to describe repo. Also mention other c
 **Input:**
 ```json
 {
-  "command": "cd /Users/malakjelloli/thm_wk-1208_softwaretechnik-uebungen && for d in ue01 ue02 ue03 ue04; do printf '%s: ' \"$d\"; find \"$d\" -mindepth 1 -maxdepth 1 -type d ! -name '_*' | wc -l | tr -d ' '; done; echo \"--- ue01 dirs ---\"; find ue01 -maxdepth 1 -mindepth 1 | sort"
+  "command": "cd /Users/.../thm_wk-1208_softwaretechnik-uebungen && for d in ue01 ue02 ue03 ue04; do printf '%s: ' \"$d\"; find \"$d\" -mindepth 1 -maxdepth 1 -type d ! -name '_*' | wc -l | tr -d ' '; done; echo \"--- ue01 dirs ---\"; find ue01 -maxdepth 1 -mindepth 1 | sort"
 }
 ```
 
@@ -597,20 +597,20 @@ _Thinking:_
 
 Now answer in German, concise. Mention:
 
-Repo = Übungsrepository Softwaretechnik THM, wächst pro Übung. Struktur ue01-ue04 plus README/AGENTS. ue01 has steckbriefe (one per person), ue02 ~108 person dirs, ue03 ~95, ue04 has _vorlage + en7-mj.
+Repo = Übungsrepository Softwaretechnik THM, wächst pro Übung. Struktur ue01-ue04 plus README/AGENTS. ue01 has steckbriefe (one per person), ue02 ~108 person dirs, ue03 ~95, ue04 has _vorlage + EN7-MJ.
 
-Files from the user (GitHub en7-mj, branch ue04-en7-mj):
-- ue01/steckbriefe/en7-mj.md — Steckbrief
-- ue02/en7-mj/ — notiz.md, spezifikation.md, phasenplan.md
-- ue03/en7-mj/ — anforderungen.md, kontext.md, zuordnung.md
-- ue04/en7-mj/einrichtung.md — currently untracked (new, not committed yet)
-Branch history: steckbrief-en7-mj, ue02-en7-mj, ue03-en7-mj, ue03--en7-j (vermutlich Tippfehler), ue04-en7-mj; current branch ue04-en7-mj.
+Files from the user (GitHub EN7-MJ, branch ue04-EN7-MJ):
+- ue01/steckbriefe/EN7-MJ.md — Steckbrief
+- ue02/EN7-MJ/ — notiz.md, spezifikation.md, phasenplan.md
+- ue03/EN7-MJ/ — anforderungen.md, kontext.md, zuordnung.md
+- ue04/EN7-MJ/einrichtung.md — currently untracked (new, not committed yet)
+Branch history: steckbrief-EN7-MJ, ue02-EN7-MJ, ue03-EN7-MJ, ue03--en7-j (vermutlich Tippfehler), ue04-EN7-MJ; current branch ue04-EN7-MJ.
 
 Also note: ue04 requires sitzung.md which is missing, and einrichtung.md still has template remnants. Maybe briefly flag because it's useful. But the question is informational. I'll add a short note.
 
 Careful about "Nichts Persönliches" - the einrichtung.md doesn't have personal info. The steckbrief has placeholder. Fine.
 
-I should not overstate: are all files in ue02/en7-mj theirs? git history attributes them to en7-mj branch. Yes.
+I should not overstate: are all files in ue02/EN7-MJ theirs? git history attributes them to EN7-MJ branch. Yes.
 
 Answer.
 
@@ -629,20 +629,20 @@ Dazu kommen die `README.md` jeder Übung, die oberste `README.md` und `AGENTS.md
 
 ## Deine Dateien
 
-Deine Kennung ist **`en7-mj`** (Branch-Namen und Fork `origin` = `EN7-MJ/…`). Dazu gehören:
+Deine Kennung ist **`EN7-MJ`** (Branch-Namen und Fork `origin` = `EN7-MJ/…`). Dazu gehören:
 
-- `ue01/steckbriefe/en7-mj.md` — Steckbrief
-- `ue02/en7-mj/notiz.md` — Gesprächsnotiz zum Terminplaner
-- `ue02/en7-mj/spezifikation.md` — Gliederung mit Beispielen (Mitarbeit: `@Ilias04j`)
-- `ue02/en7-mj/phasenplan.md` — Phasenplan
-- `ue03/en7-mj/anforderungen.md` — Anforderungstabelle
-- `ue03/en7-mj/kontext.md` — Stakeholder und Systemkontext
-- `ue03/en7-mj/zuordnung.md` — Einordnung Anforderung/Lösung
-- `ue04/en7-mj/einrichtung.md` — Einrichtung des Coding Agenten
+- `ue01/steckbriefe/EN7-MJ.md` — Steckbrief
+- `ue02/EN7-MJ/notiz.md` — Gesprächsnotiz zum Terminplaner
+- `ue02/EN7-MJ/spezifikation.md` — Gliederung mit Beispielen (Mitarbeit: `@Ilias04j`)
+- `ue02/EN7-MJ/phasenplan.md` — Phasenplan
+- `ue03/EN7-MJ/anforderungen.md` — Anforderungstabelle
+- `ue03/EN7-MJ/kontext.md` — Stakeholder und Systemkontext
+- `ue03/EN7-MJ/zuordnung.md` — Einordnung Anforderung/Lösung
+- `ue04/EN7-MJ/einrichtung.md` — Einrichtung des Coding Agenten
 
-Deine Branches: `steckbrief-en7-mj`, `ue02-en7-mj`, `ue03-en7-mj`, `ue04-en7-mj` (aktuell ausgecheckt) sowie `ue03--en7-j` — letzterer sieht nach einem Tippfehler aus.
+Deine Branches: `steckbrief-EN7-MJ`, `ue02-EN7-MJ`, `ue03-EN7-MJ`, `ue04-EN7-MJ` (aktuell ausgecheckt) sowie `ue03--en7-j` — letzterer sieht nach einem Tippfehler aus.
 
 ## Zwei Hinweise zu Übung 4
 
-- `ue04/en7-mj/` ist noch **nicht committet** (`git status`: untracked). Bisher liegt dort nur `einrichtung.md`.
+- `ue04/EN7-MJ/` ist noch **nicht committet** (`git status`: untracked). Bisher liegt dort nur `einrichtung.md`.
 - Die laut `ue04/README.md` geforderte Datei **`sitzung.md` fehlt** noch. Außerdem stehen in `einrichtung.md` noch Reste der Vorlage (u. a. die Zeile „Modellzugang: …“ und der unausgefüllte Abschnitt „Wenn es nicht läuft“).
